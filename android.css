@@ -27,9 +27,9 @@ header{
     
     background-color: #115F33;
     background-image: linear-gradient(to top, #115F33, #50e792);
-    height: 200px;
+    height: 300px;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 1.5em;
     
 }
@@ -40,10 +40,11 @@ header > h1{
     
     
 }
-header > p{
-    
-    text-align: center;
+header > p{ display: flex;
+    width: 50%;
+    margin:auto;
     color: white;
+    text-align: center
 }
 nav{ 
     font-family: Arial, Helvetica, sans-serif;
@@ -85,12 +86,13 @@ article > h2{
     color: #115F33;
     background-color: #E8E5C2;
     background-image: linear-gradient(to right, #E8E5C2, white);
+    font-size: 1.3em;
 }
 article > h1{
     
     font-family: 'idroid';
     background-image: linear-gradient(to right, #E8E5C2, white);
-    color: #115F33; font-size: 2em;
+    color: #115F33; font-size: 1.5em;
 }
 picture{
     display: flex;
